@@ -1,0 +1,17 @@
+{
+  "name": "Formulário YouTube",
+  "short_name": "FormYT",
+  "author": "Seu Nome Completo",
+  "description": "App de formulário para envio de links do YouTube. Desenvolvido por Seu Nome.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#007bff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
