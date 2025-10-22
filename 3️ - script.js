@@ -1,11 +1,11 @@
 /*
-  Desenvolvedor: Seu Nome Completo
-  Email: seu.email@exemplo.com
+  Desenvolvedor: Adriano Gomes Lopes dos Santos (ou Nome da Empresa)
+  Email: adriano.glopes@yahoo.com.br
   Copyright (c) 2025
 */
 
 const form = document.getElementById('youtubeForm');
-const googleScriptURL = "https://script.google.com/macros/s/AKfycbzpsyACQv8cbrRqdVfzCjlJuYg9G9gVcoAFkvVJGOj1lyUS-m1HbUSb44wJYT1UXdbEwg/execPPS_SCRIPT"; // Substitua depois
+const googleScriptURL = "https://script.google.com/macros/s/AKfycbzZ_rVl4ImfigID3uelEIIsJA4UWRi_l7_wZCwVzYTZqwNPmnjIzMevb9QTdBtA2sDHNQ/exec"; // Substitua depois
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
