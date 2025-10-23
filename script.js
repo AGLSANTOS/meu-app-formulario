@@ -1,8 +1,4 @@
-/*
-  Desenvolvedor: Adriano Gomes Lopes dos Santos
-  Email: adriano.glopes@yahoo.com.br
-  Copyright (c) 2025
-*/
+
 /*
   Desenvolvedor: Adriano Gomes Lopes dos Santos
   Email: adriano.glopes@yahoo.com.br
@@ -38,3 +34,4 @@ new QRCode(document.getElementById("qrcode"), {
   width: 128,
   height: 128
 });
+
