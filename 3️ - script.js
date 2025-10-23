@@ -15,6 +15,27 @@ form.addEventListener('submit', (e) => {
   const nome = document.getElementById('nome').value.trim();
   const link = document.getElementById('link').value.trim();
   const dataHora = new Date().toLocaleString('pt-PT');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const nome = document.getElementById('nome').value.trim();
+  const link = document.getElementById('link').value.trim();
+  const dataHora = new Date().toLocaleString('pt-PT');
+
+  console.log("Dados a enviar:", { nome, link, dataHora }); // <-- NOVO
+
+  fetch(googleScriptURL, {
+    method: 'POST',
+    body: JSON.stringify({ nome, link, dataHora }),
+    headers: { 'Content-Type': 'application/json' }
+  })
+  .then(res => res.json())
+  .then(data => {
+    alert("✅ Formulário enviado com sucesso!");
+    form.reset();
+  })
+  .catch(err => alert("❌ Erro ao enviar: " + err));
+});
 
   fetch(googleScriptURL, {
     method: 'POST',
@@ -35,6 +56,7 @@ new QRCode(document.getElementById("qrcode"), {
   width: 128,
   height: 128
 });
+
 
 
 
