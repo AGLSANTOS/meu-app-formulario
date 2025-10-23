@@ -1,13 +1,5 @@
-
-/*
-  Desenvolvedor: Adriano Gomes Lopes dos Santos
-  Email: adriano.glopes@yahoo.com.br
-  Copyright (c) 2025
-*/
-
 const form = document.getElementById('youtubeForm');
-
-const googleScriptURL = "https://script.google.com/macros/s/AKfycby-NI_GU8YiD86zcHQC4DWSBiZJ9ydIGBkOoQ0ObZ-WydXpdWwtGBDqfY8siuswmzP4/exec";
+const googleScriptURL = "https://script.google.com/macros/s/AKfycbw4bqvHE2Qqz2c1QQKT72x5gVhc1rs9WA7_CRsnMWkG7NdFsP0ru_g83ydRQN4oni4Y/exec";
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -34,6 +26,3 @@ new QRCode(document.getElementById("qrcode"), {
   width: 128,
   height: 128
 });
-
-
-
