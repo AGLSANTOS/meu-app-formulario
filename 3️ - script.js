@@ -6,7 +6,7 @@
 
 const form = document.getElementById('youtubeForm');
 
-const googleScriptURL = "https://script.google.com/macros/s/AKfycbx3DMlaNH7-I4WaLWZGjTv-oWFk7XSmd6wMEXblbC3L1ZUsEsxupQokLoDNxbB5p4Va/exec";
+const googleScriptURL = "https://script.google.com/macros/s/AKfycbzH3nHuY7_aKVgl0sTVtIuoSJgk4pK9EW0VebXZJc0gtsNnUqQ76X5yegK15Twxt5E/exec";
 
 
 form.addEventListener('submit', (e) => {
@@ -35,6 +35,7 @@ new QRCode(document.getElementById("qrcode"), {
   width: 128,
   height: 128
 });
+
 
 
 
