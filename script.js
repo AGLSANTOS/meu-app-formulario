@@ -3,9 +3,15 @@
   Email: adriano.glopes@yahoo.com.br
   Copyright (c) 2025
 */
+/*
+  Desenvolvedor: Adriano Gomes Lopes dos Santos
+  Email: adriano.glopes@yahoo.com.br
+  Copyright (c) 2025
+*/
 
 const form = document.getElementById('youtubeForm');
-const googleScriptURL = "https://script.google.com/macros/s/AKfycbx3DMlaNH7-I4WaLWZGjTv-oWFk7XSmd6wMEXblbC3L1ZUsEsxupQokLoDNxbB5p4Va/exec";
+
+const googleScriptURL = "https://script.google.com/macros/s/AKfycbzH3nHuY7_aKVgl0sTVtIuoSJgk4pK9EW0VebXZJc0gtsNnUqQ76X5yegK15Twxt5E/exec";
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
