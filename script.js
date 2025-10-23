@@ -7,7 +7,7 @@
 
 const form = document.getElementById('youtubeForm');
 
-const googleScriptURL = "https://script.google.com/macros/s/AKfycby_xcZfpWo_dbnsDXt9rTki1V-DEpj8Hy79Yz-UgCYcw0Dfrpgv_lpDdRDP7OZ7Z8FI/exec";
+const googleScriptURL = "https://script.google.com/macros/s/AKfycby-NI_GU8YiD86zcHQC4DWSBiZJ9ydIGBkOoQ0ObZ-WydXpdWwtGBDqfY8siuswmzP4/exec";
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -34,5 +34,6 @@ new QRCode(document.getElementById("qrcode"), {
   width: 128,
   height: 128
 });
+
 
 
